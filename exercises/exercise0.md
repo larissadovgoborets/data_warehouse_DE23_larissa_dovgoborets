@@ -7,9 +7,9 @@ In this exercise, you get to familiarize yourself with snowflake and snowsql. Yo
 
 ## 0. Google queries
 
-Go into marketplace under data products in snowsight. Search and get the following dataset `Google Keywords search dataset - discover all searches on Google`.
+- [x] Go into marketplace under data products in snowsight. Search and get the following dataset `Google Keywords search dataset - discover all searches on Google`.
 
-Now create a worksheet on your local repository and start querying this data through snowsql.
+- [x] Now create a worksheet on your local repository and start querying this data through snowsql.
 
 &nbsp; a) Use this database and find out the underlying schemas, tables and views to get an overview of its logical structure.
 
