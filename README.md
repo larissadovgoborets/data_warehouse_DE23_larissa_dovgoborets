@@ -2,7 +2,6 @@
 
 Contains projects and course exercises.
 
-
 ## Lecture notes 2024-08-20
 
 ### What have we learned yesterday?
