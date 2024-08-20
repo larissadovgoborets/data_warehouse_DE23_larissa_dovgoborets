@@ -27,6 +27,7 @@ pwd
 git status
 git add . 
 git commit -m "<insert message>"
+git push
 ```
 
 - installation and account activation Snowflake, Snowflake VScode integration and configuration
