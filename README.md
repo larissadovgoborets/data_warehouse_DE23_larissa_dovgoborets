@@ -9,15 +9,18 @@ Contains projects and course exercises.
 
 - study technique
 - course structure
-- git bash commands:
-´´´cd
-  cd ..
+- git bash commands
+
+```
+cd
+cd ..
   ls
   ls -a
   mkdir
   rmdir
   pwd
-´´´
+```
+
 - git commands "git status", "git add .", "git commit -m "*insert message*", "git push"
 - installation and account activation Snowflake, Snowflake VScode integration
 - different data stack tools
