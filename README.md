@@ -18,6 +18,7 @@ Contains projects and course exercises.
   rmdir
   pwd
   '''
+- git commands "git add .", "git commit -m "*insert message*", "git push"
 - installation and account activation Snowflake, Snowflake VScode integration
 - different data stack tools
 - upstream --> data warehouse --> downstream
