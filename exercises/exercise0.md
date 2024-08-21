@@ -109,39 +109,39 @@ $780\$+1170\$+1560\$=3510\$$
 
 These study questions are good to get an overview of how snowflake works.
 
-- [] &nbsp; a) What are the main components of Snowflake's architecture?
+- [ ] &nbsp; a) What are the main components of Snowflake's architecture?
 
 Storage layer, Compute layer, Cloud services layer, data sharing, database & SQL engine
 
-- [] &nbsp; b) Explain the role of the storage layer in Snowflake.
+- [ ] &nbsp; b) Explain the role of the storage layer in Snowflake.
 
 Upscale & outscale, you pay only for storage that you use, data compression for least used storage space, data encryption, data availability.
 
-- [] &nbsp; c) What is the purpose of the compute layer in Snowflake?
+- [ ] &nbsp; c) What is the purpose of the compute layer in Snowflake?
 
 Consists of multiple virtual warehouses that speed up the computations by parallel processing and scaling. By separating data into different warehouses the data becomes more relevant and easier to analyse.
 
-- [] &nbsp; d) How does the cloud services layer enhance the functionality of Snowflake?
+- [ ] &nbsp; d) How does the cloud services layer enhance the functionality of Snowflake?
 
 Manages metadata, security, query optimization with efficient query execution, seamless scaling and secure data sharing. Automation of administrative tasks like resource management and ensures transactional consistency.
 
-- [] &nbsp; e) What is a virtual warehouse in Snowflake, and how does it differ from a traditional data warehouse?
+- [ ] &nbsp; e) What is a virtual warehouse in Snowflake, and how does it differ from a traditional data warehouse?
 
 Scalable compute cluster that processes queries and performs data operations independently of storage. Compared to traditional warehouses, decouples compute and storage, thus allowing compute resources to scale elastically based on workload demand. Multiple virtual warehouses can operate concurrently on same data without interference - creates flexibility and high concurrency.
 
-- [] &nbsp; f) When are the cases you would want to scale up versus scaling out in terms of virtual warehouses and compute resources.
+- [ ] &nbsp; f) When are the cases you would want to scale up versus scaling out in terms of virtual warehouses and compute resources.
 
 Scale up for more powerful compute resources for complex, resource-intensive queries. Scale out (add more virtual warehouses) to distribute workloads across multiple independent compute clusters, thus increased concurrency, allowing multiple queries to run simultaneously without performance degradation.
 
-- [] &nbsp; g) How does Snowflake's pricing model differ from traditional on-premise data warehousing solutions?
+- [ ] &nbsp; g) How does Snowflake's pricing model differ from traditional on-premise data warehousing solutions?
 
 It's based on usage, charging separately for storage and compute resources. You pay only for what you use, and scale up and down as much as you need. Compared to traditional on-premise data warehousing, that requires upfront investment in hardware and ongoing costs for maintenance, regardless of usage.
 
-- [] &nbsp; h) What is the difference between pay-as-you-go and upfront storage, and when you should you choose one over the other?
+- [ ] &nbsp; h) What is the difference between pay-as-you-go and upfront storage, and when you should you choose one over the other?
 
 Pay-as-you-go: pay based on your actual usage of storage and compute resources. Good for fluctuating workloads and avoiding overpaying for unused capacity. Upfront storage: pay a fixed amount in advance for a set of amount storage. Cost-effective for predictable long-term storage need (risk for higher costs if you need to upscale or downscale).
 
-- [] &nbsp; i) Explain the concept of Time Travel and Fail-safe in Snowflake and its use cases.
+- [ ] &nbsp; i) Explain the concept of Time Travel and Fail-safe in Snowflake and its use cases.
 
 Time Travel: access and query historical versions of data within a specified retention period. Useful for recovering from mistakes, auditing changes, analyzing past data states.
 
