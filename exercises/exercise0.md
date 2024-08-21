@@ -69,7 +69,7 @@ $2 h /day * 30 days * 2 credits/ h=  120 credits$ (for 30 days)
 
 which will be
 
-$120 credit * 3.9\$/ credit = 468\$$ (for 30 days)
+$120 credit * 3.9\$ /credit= 468\$$ (for 30 days)
 
 Warehouse C:
 
@@ -91,7 +91,7 @@ $2clusters * 10 hours/day * 10 days * 1credit/cluster = 200 credits$
 
 For fist ten days:
 
-$200credits * 3.9\$/credit = 780\$$
+$200credits * 3.9\$ /credit= 780\$$
 
 $3clusters * 10 hours/day * 10 days * 1credit/cluster = 300 credits$
 
