@@ -103,6 +103,7 @@ For following ten days:
 $400credits * 3.9\$/credit = 1560\$$
 
 Total for 30 days:
+
 $780\$ + 1170 \$+1560 \$ = 3510 \$$
 
 ## 2. Theory questions
