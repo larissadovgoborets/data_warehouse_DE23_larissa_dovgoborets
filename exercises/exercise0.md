@@ -63,7 +63,7 @@ Warehouse A:
 
 $10 * 1  * 30 = 300 \ credits$ (for 30 days)
 
-$300 * 3.9\$= 1170$ $ (for 30 days)
+$300 * 3.9\$= 1170\$ $ (for 30 days)
 
 Warehouse B:
 
@@ -71,7 +71,7 @@ $2 h /day * 30 days * 2 credits/ h=  120 credits$ (for 30 days)
 
 which will be
 
-$120 credit * 3.9\$ /credit= 468\$$ (for 30 days)
+$120 credit * 3.9 \$/credit= 468\$$ (for 30 days)
 
 Warehouse C:
 
