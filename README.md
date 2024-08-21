@@ -10,7 +10,7 @@ Contains projects and course exercises.
 - course structure
 - git bash commands
 
-```
+```bash
 cd
 cd ..
 ls
@@ -22,7 +22,7 @@ pwd
 
 - git commands
 
-```
+```bash
 git status
 git add . 
 git commit -m "<insert message>"
