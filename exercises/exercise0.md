@@ -40,9 +40,11 @@ For these exercises, look up the credit cost for your snowflake edition, cloud p
 - [x] &nbsp; a) You have a simple workload that runs daily in Snowflake. The workload uses 0.5 credits per day. Calculate the total credit usage and cost for a 30-day month.
 
 ```math
-0.5 * 30 = 15 (credits) for 30days
+0.5 * 30 = 15 (credits)\  for \ 30\ days
 
-15 credits  * 3.90 \$ / credit = 58.5\$ (for 30 days)
+\\
+
+15 credits  * 3.90 \$ / credit = 58.5\$\ (for\ 30\ days)
 ```
 
 - [x] &nbsp; b) Your workload varies throughout the month. For the first 10 days, you use 2 credits per day. For the next 10 days, you use 1.5 credits per day, and for the last 10 days, you use 1 credit per day. Calculate the total credit usage and cost for a 30-day month.
