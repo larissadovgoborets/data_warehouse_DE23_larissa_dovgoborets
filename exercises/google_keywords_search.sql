@@ -66,4 +66,43 @@ ORDER BY number_of_users DESC;
 -- check if there is only one platform
 SELECT DISTINCT(PLATFORM) FROM GOOGLE_KEYWORDS; 
 
+-- h) Sweden's country code is 752
+-- find the 20 most popular keywords in Sweden and the number of searches
 
+SELECT KEYWORD, COUNT(*) AS number_of_searches FROM GOOGLE_KEYWORDS
+WHERE COUNTRY = '752'
+GROUP BY KEYWORD
+ORDER BY number_of_searches DESC
+LIMIT 20;
+-- gmail, youtube,länsförsäkringar, 1177, google drive, porn, facebook etc etc ..outlook.
+
+-- i) Lets see how popular spotify is around the world. 
+-- List the top 10 number countries and the number of searches for spotify. 
+
+SELECT COUNTRY, COUNT(*) AS number_of_searches 
+FROM GOOGLE_KEYWORDS
+WHERE KEYWORD in ('spotify', 'Spotify', 'SPOTIFY')
+GROUP BY COUNTRY
+ORDER BY number_of_searches DESC
+LIMIT 10;
+
+-- Join country codes with the actual country to get more useful information to the stakeholders.
+
+SELECT COUNTRY, 
+CASE WHEN COUNTRY = '840' THEN 'USA'
+     WHEN COUNTRY = '356' THEN 'India'
+     WHEN COUNTRY = '276' THEN 'Germany'
+     WHEN COUNTRY = '124' THEN 'Canada'
+     WHEN COUNTRY = '826' THEN 'United Kingdom'
+     WHEN COUNTRY = '392' THEN 'Japan'
+     WHEN COUNTRY = '250' THEN 'France'
+     WHEN COUNTRY = '36' THEN 'Australia'
+     WHEN COUNTRY = '76' THEN 'Brazil'
+     WHEN COUNTRY = '56' THEN 'Belgium'
+     ELSE 'Other'
+END AS country_name, 
+count(*) as number_of_searches from GOOGLE_KEYWORDS
+WHERE KEYWORD in ('spotify', 'Spotify', 'SPOTIFY')
+GROUP BY COUNTRY
+ORDER BY number_of_searches DESC
+LIMIT 10;

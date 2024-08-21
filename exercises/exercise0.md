@@ -17,7 +17,7 @@ In this exercise, you get to familiarize yourself with snowflake and snowsql. Yo
 
 We will now do some exploratory data analysis (EDA) of this dataset.
 
--[x] &nbsp; c) Find out number of rows in the dataset.
+- [x] &nbsp; c) Find out number of rows in the dataset.
 
 - [x] &nbsp; d) When is the first search and when is the latest search in the dataset?
 
@@ -27,9 +27,9 @@ We will now do some exploratory data analysis (EDA) of this dataset.
 
 - [x] &nbsp; g) Check what type of platforms are used and how many users per platform
 
-&nbsp; h) Let's dive into what swedish people are searching. Go into [worldbanks country codes](https://wits.worldbank.org/wits/wits/witshelp/content/codes/country_codes.htm) to find out the country code for Sweden. Find the 20 most popular keywords and the number of searches of that keyword.
+- [x] &nbsp; h) Let's dive into what swedish people are searching. Go into [worldbanks country codes](https://wits.worldbank.org/wits/wits/witshelp/content/codes/country_codes.htm) to find out the country code for Sweden. Find the 20 most popular keywords and the number of searches of that keyword.
 
-&nbsp; i) Lets see how popular spotify is around the world. List the top 10 number countries and the number of searches for spotify. For now it's okay to list the country codes, later we'll join this with the actual country to get more useful information to the stakeholders.
+- [x] &nbsp; i) Lets see how popular spotify is around the world. List the top 10 number countries and the number of searches for spotify. For now it's okay to list the country codes, later we'll join this with the actual country to get more useful information to the stakeholders.
 
 &nbsp; j) Feel free to do additional explorations of this dataset.
 
@@ -39,11 +39,53 @@ For these exercises, look up the credit cost for your snowflake edition, cloud p
 
 &nbsp; a) You have a simple workload that runs daily in Snowflake. The workload uses 0.5 credits per day. Calculate the total credit usage and cost for a 30-day month.
 
+$0.5 * 30 = 15 (credits)$ for 30days
+
+$15 credits  * 3.90 \$ / credit = 58.5\$$ (for 30 days)
+
 &nbsp; b) Your workload varies throughout the month. For the first 10 days, you use 2 credits per day. For the next 10 days, you use 1.5 credits per day, and for the last 10 days, you use 1 credit per day. Calculate the total credit usage and cost for a 30-day month.
+
+$2 credits * 10 days = 20 credits$ first 10 days
+
+$1.5 * 10 = 15$
+
+$20+15+10 = 45 credits$
+
+$45 * 3.9 = 175.5\$$
 
 &nbsp; c) You have three different warehouses running workloads simultaneously. Warehouse A is of size XS, Warehouse B is of size S, and Warehouse C is of size M. Warehouse A is used for 10h/day, B is used for 2h/day and C is used for 1h/day. Calculate the total monthly cost assuming each warehouse runs for the full 30-day month.
 
+Warehouse A:
+
+$10 * 1  * 30 = 300 \ credits$ (for 30 days)
+
+$300 * 3.9\$ = 1170$ $ (for 30 days)
+
+Warehouse B:
+
+$2 h /day * 30 days * 2 credits/ h=  120 credits$ (for 30 days)
+
+which will be
+
+$120 credit * 3.9\$/ credit = 468\$$ (for 30 days)
+
+Warehouse C:
+
+$1h/day * 30 days * 4 credits/h = 120 credits$ (for 30 days)
+
+$120 * 3.9 = 468\$$ (for 30 days)
+
+TOTAL for 30 days:
+
+$468\$ + 468\$ + 1170\$ = 2106\$$
+
 &nbsp; d) Your Snowflake warehouse uses auto-scaling. For the first 10 days, it operates on 2 clusters for 10 hours per day. For the next 10 days, it scales up to 3 clusters for 10 hours per day. For the last 10 days, it scales up to 4 clusters for 10 hours per day. Calculate the total monthly budget. Assume the warehouse consumes 1 credit per hour per cluster.
+
+> If you have the ability to create multi-cluster Virtual Warehouses, each Virtual Warehouse can run multiple, equal-size clusters concurrently
+>and independently. The rate of Snowflake Credits charged for a multi-cluster Virtual Warehouse is calculated by multiplying the rate for the size
+>of the Virtual Warehouse and the number of running clusters.
+
+$2clusters * 10 days * 30 = 
 
 ## 2. Theory questions
 
