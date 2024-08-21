@@ -100,7 +100,9 @@ $4clusters * 10 hours/day * 10 days * 1credit/cluster = 400 credits$
 
 For following ten days:
 
-$400credits * 3.9\$ /credit = 1560\$$
+```math
+400credits * 3.9\$ /credit = 1560\$
+```
 
 Total for 30 days:
 
