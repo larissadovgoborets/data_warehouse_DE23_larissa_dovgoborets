@@ -77,7 +77,7 @@ $120 * 3.9 = 468\$$ (for 30 days)
 
 TOTAL for 30 days:
 
-$468 \$ \+ 468 \$ \+ 1170\$ = 2106\$$
+$468 \$ \+ 468 \$ \+ 1170\$ = 2106 \$ $
 
 - [x] &nbsp; d) Your Snowflake warehouse uses auto-scaling. For the first 10 days, it operates on 2 clusters for 10 hours per day. For the next 10 days, it scales up to 3 clusters for 10 hours per day. For the last 10 days, it scales up to 4 clusters for 10 hours per day. Calculate the total monthly budget. Assume the warehouse consumes 1 credit per hour per cluster.
 
