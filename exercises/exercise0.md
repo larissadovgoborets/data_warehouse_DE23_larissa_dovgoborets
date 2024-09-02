@@ -41,9 +41,9 @@ For these exercises, look up the credit cost for your snowflake edition, cloud p
 
 ```math
 0.5 * 30 = 15 (credits)\  for \ 30\ days
-
-\\
-
+```
+  
+```math
 15 credits  * 3.90 \$ / credit = 58.5\$\ (for\ 30\ days)
 ```
 
