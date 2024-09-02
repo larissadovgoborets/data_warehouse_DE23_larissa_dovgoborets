@@ -1,3 +1,5 @@
+
+
 SHOW databases;
 
 USE SCHEMA snowflake_sample_data.tpch_sf1;
@@ -5,3 +7,7 @@ USE SCHEMA snowflake_sample_data.tpch_sf1;
 SHOW TABLES;
 
 SELECT * FROM CUSTOMER;
+
+USE ROLE ORGADMIN;
+
+SHOW ACCOUNTS;
